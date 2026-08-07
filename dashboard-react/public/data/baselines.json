@@ -1,0 +1,114 @@
+{
+  "rows": [
+    {
+      "ticker": "AAPL",
+      "baseline": "random",
+      "accuracy": 0.4947,
+      "sharpe": -0.2673
+    },
+    {
+      "ticker": "AAPL",
+      "baseline": "sma_cross",
+      "accuracy": 0.5426,
+      "sharpe": 0.8111
+    },
+    {
+      "ticker": "AAPL",
+      "baseline": "always_long",
+      "accuracy": 0.5612,
+      "sharpe": 0.8355
+    },
+    {
+      "ticker": "MSFT",
+      "baseline": "random",
+      "accuracy": 0.5027,
+      "sharpe": 0.5552
+    },
+    {
+      "ticker": "MSFT",
+      "baseline": "sma_cross",
+      "accuracy": 0.4787,
+      "sharpe": 0.2407
+    },
+    {
+      "ticker": "MSFT",
+      "baseline": "always_long",
+      "accuracy": 0.5559,
+      "sharpe": 0.746
+    },
+    {
+      "ticker": "GOOGL",
+      "baseline": "random",
+      "accuracy": 0.484,
+      "sharpe": 0.993
+    },
+    {
+      "ticker": "GOOGL",
+      "baseline": "sma_cross",
+      "accuracy": 0.5133,
+      "sharpe": 0.3444
+    },
+    {
+      "ticker": "GOOGL",
+      "baseline": "always_long",
+      "accuracy": 0.5798,
+      "sharpe": 1.1526
+    },
+    {
+      "ticker": "JPM",
+      "baseline": "random",
+      "accuracy": 0.5293,
+      "sharpe": 0.18
+    },
+    {
+      "ticker": "JPM",
+      "baseline": "sma_cross",
+      "accuracy": 0.5426,
+      "sharpe": 1.3852
+    },
+    {
+      "ticker": "JPM",
+      "baseline": "always_long",
+      "accuracy": 0.5771,
+      "sharpe": 1.6252
+    },
+    {
+      "ticker": "XOM",
+      "baseline": "random",
+      "accuracy": 0.5053,
+      "sharpe": -0.724
+    },
+    {
+      "ticker": "XOM",
+      "baseline": "sma_cross",
+      "accuracy": 0.5239,
+      "sharpe": 0.2163
+    },
+    {
+      "ticker": "XOM",
+      "baseline": "always_long",
+      "accuracy": 0.5027,
+      "sharpe": 0.0478
+    }
+  ],
+  "summary": [
+    {
+      "baseline": "random",
+      "label": "Random",
+      "mean_accuracy": 0.5032,
+      "mean_sharpe": 0.1474
+    },
+    {
+      "baseline": "sma_cross",
+      "label": "SMA Crossover (50d)",
+      "mean_accuracy": 0.5202,
+      "mean_sharpe": 0.5995
+    },
+    {
+      "baseline": "always_long",
+      "label": "Always Long",
+      "mean_accuracy": 0.5553,
+      "mean_sharpe": 0.8814
+    }
+  ]
+}

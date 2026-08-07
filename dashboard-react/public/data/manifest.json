@@ -1,0 +1,1 @@
+{"tickers":["AAPL","MSFT","GOOGL","JPM","XOM"],"models":["xgboost","lstm","tft","patchtst"],"generatedAt":"2026-04-15T22:17:55.814409","available":{"xgboost":["AAPL","MSFT","GOOGL","JPM","XOM"],"lstm":["AAPL","MSFT","GOOGL","JPM","XOM"],"tft":["AAPL","MSFT","GOOGL","JPM","XOM"],"patchtst":["AAPL","MSFT","GOOGL","JPM","XOM"]}}

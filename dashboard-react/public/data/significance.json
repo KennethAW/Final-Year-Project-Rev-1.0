@@ -1,0 +1,481 @@
+{
+  "per_ticker": [
+    {
+      "model": "xgboost",
+      "ticker": "AAPL",
+      "n_samples": 376,
+      "accuracy": 0.5213,
+      "binomial_pvalue": 0.4392,
+      "acc_ci_low": 0.4734,
+      "acc_ci_high": 0.5718,
+      "significant_vs_random": false
+    },
+    {
+      "model": "xgboost",
+      "ticker": "MSFT",
+      "n_samples": 376,
+      "accuracy": 0.5346,
+      "binomial_pvalue": 0.1972,
+      "acc_ci_low": 0.484,
+      "acc_ci_high": 0.5878,
+      "significant_vs_random": false
+    },
+    {
+      "model": "xgboost",
+      "ticker": "GOOGL",
+      "n_samples": 376,
+      "accuracy": 0.4814,
+      "binomial_pvalue": 0.5026,
+      "acc_ci_low": 0.4335,
+      "acc_ci_high": 0.532,
+      "significant_vs_random": false
+    },
+    {
+      "model": "xgboost",
+      "ticker": "JPM",
+      "n_samples": 376,
+      "accuracy": 0.4495,
+      "binomial_pvalue": 0.0562,
+      "acc_ci_low": 0.3989,
+      "acc_ci_high": 0.5,
+      "significant_vs_random": false
+    },
+    {
+      "model": "xgboost",
+      "ticker": "XOM",
+      "n_samples": 376,
+      "accuracy": 0.4947,
+      "binomial_pvalue": 0.8771,
+      "acc_ci_low": 0.4441,
+      "acc_ci_high": 0.5399,
+      "significant_vs_random": false
+    },
+    {
+      "model": "lstm",
+      "ticker": "AAPL",
+      "n_samples": 356,
+      "accuracy": 0.5337,
+      "binomial_pvalue": 0.2228,
+      "acc_ci_low": 0.4831,
+      "acc_ci_high": 0.5899,
+      "significant_vs_random": false
+    },
+    {
+      "model": "lstm",
+      "ticker": "MSFT",
+      "n_samples": 356,
+      "accuracy": 0.5253,
+      "binomial_pvalue": 0.3676,
+      "acc_ci_low": 0.4747,
+      "acc_ci_high": 0.5758,
+      "significant_vs_random": false
+    },
+    {
+      "model": "lstm",
+      "ticker": "GOOGL",
+      "n_samples": 356,
+      "accuracy": 0.5562,
+      "binomial_pvalue": 0.0386,
+      "acc_ci_low": 0.5,
+      "acc_ci_high": 0.6067,
+      "significant_vs_random": true
+    },
+    {
+      "model": "lstm",
+      "ticker": "JPM",
+      "n_samples": 356,
+      "accuracy": 0.4298,
+      "binomial_pvalue": 0.0093,
+      "acc_ci_low": 0.3792,
+      "acc_ci_high": 0.4831,
+      "significant_vs_random": true
+    },
+    {
+      "model": "lstm",
+      "ticker": "XOM",
+      "n_samples": 356,
+      "accuracy": 0.486,
+      "binomial_pvalue": 0.6334,
+      "acc_ci_low": 0.4353,
+      "acc_ci_high": 0.5365,
+      "significant_vs_random": false
+    },
+    {
+      "model": "tft",
+      "ticker": "AAPL",
+      "n_samples": 356,
+      "accuracy": 0.4944,
+      "binomial_pvalue": 0.8737,
+      "acc_ci_low": 0.4438,
+      "acc_ci_high": 0.5449,
+      "significant_vs_random": false
+    },
+    {
+      "model": "tft",
+      "ticker": "MSFT",
+      "n_samples": 356,
+      "accuracy": 0.5393,
+      "binomial_pvalue": 0.1523,
+      "acc_ci_low": 0.486,
+      "acc_ci_high": 0.5899,
+      "significant_vs_random": false
+    },
+    {
+      "model": "tft",
+      "ticker": "GOOGL",
+      "n_samples": 356,
+      "accuracy": 0.573,
+      "binomial_pvalue": 0.0068,
+      "acc_ci_low": 0.5225,
+      "acc_ci_high": 0.6236,
+      "significant_vs_random": true
+    },
+    {
+      "model": "tft",
+      "ticker": "JPM",
+      "n_samples": 356,
+      "accuracy": 0.4298,
+      "binomial_pvalue": 0.0093,
+      "acc_ci_low": 0.382,
+      "acc_ci_high": 0.4775,
+      "significant_vs_random": true
+    },
+    {
+      "model": "tft",
+      "ticker": "XOM",
+      "n_samples": 356,
+      "accuracy": 0.5112,
+      "binomial_pvalue": 0.7107,
+      "acc_ci_low": 0.4579,
+      "acc_ci_high": 0.5646,
+      "significant_vs_random": false
+    },
+    {
+      "model": "patchtst",
+      "ticker": "AAPL",
+      "n_samples": 356,
+      "accuracy": 0.5618,
+      "binomial_pvalue": 0.0225,
+      "acc_ci_low": 0.514,
+      "acc_ci_high": 0.6152,
+      "significant_vs_random": true
+    },
+    {
+      "model": "patchtst",
+      "ticker": "MSFT",
+      "n_samples": 356,
+      "accuracy": 0.559,
+      "binomial_pvalue": 0.0296,
+      "acc_ci_low": 0.5084,
+      "acc_ci_high": 0.6152,
+      "significant_vs_random": true
+    },
+    {
+      "model": "patchtst",
+      "ticker": "GOOGL",
+      "n_samples": 356,
+      "accuracy": 0.5084,
+      "binomial_pvalue": 0.7911,
+      "acc_ci_low": 0.4579,
+      "acc_ci_high": 0.5562,
+      "significant_vs_random": false
+    },
+    {
+      "model": "patchtst",
+      "ticker": "JPM",
+      "n_samples": 356,
+      "accuracy": 0.5056,
+      "binomial_pvalue": 0.8737,
+      "acc_ci_low": 0.4522,
+      "acc_ci_high": 0.5562,
+      "significant_vs_random": false
+    },
+    {
+      "model": "patchtst",
+      "ticker": "XOM",
+      "n_samples": 356,
+      "accuracy": 0.4916,
+      "binomial_pvalue": 0.7911,
+      "acc_ci_low": 0.441,
+      "acc_ci_high": 0.5421,
+      "significant_vs_random": false
+    }
+  ],
+  "pairwise_dm": [
+    {
+      "ticker": "AAPL",
+      "model_a": "xgboost",
+      "model_b": "lstm",
+      "dm_pvalue": 0.0262,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "AAPL",
+      "model_a": "xgboost",
+      "model_b": "tft",
+      "dm_pvalue": 0.232,
+      "significant": false,
+      "n_common": 356
+    },
+    {
+      "ticker": "AAPL",
+      "model_a": "xgboost",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "AAPL",
+      "model_a": "lstm",
+      "model_b": "tft",
+      "dm_pvalue": 0.1632,
+      "significant": false,
+      "n_common": 356
+    },
+    {
+      "ticker": "AAPL",
+      "model_a": "lstm",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "AAPL",
+      "model_a": "tft",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "MSFT",
+      "model_a": "xgboost",
+      "model_b": "lstm",
+      "dm_pvalue": 0.0016,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "MSFT",
+      "model_a": "xgboost",
+      "model_b": "tft",
+      "dm_pvalue": 0.1048,
+      "significant": false,
+      "n_common": 356
+    },
+    {
+      "ticker": "MSFT",
+      "model_a": "xgboost",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "MSFT",
+      "model_a": "lstm",
+      "model_b": "tft",
+      "dm_pvalue": 0.0031,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "MSFT",
+      "model_a": "lstm",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "MSFT",
+      "model_a": "tft",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "GOOGL",
+      "model_a": "xgboost",
+      "model_b": "lstm",
+      "dm_pvalue": 0.0451,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "GOOGL",
+      "model_a": "xgboost",
+      "model_b": "tft",
+      "dm_pvalue": 0.8226,
+      "significant": false,
+      "n_common": 356
+    },
+    {
+      "ticker": "GOOGL",
+      "model_a": "xgboost",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "GOOGL",
+      "model_a": "lstm",
+      "model_b": "tft",
+      "dm_pvalue": 0.0191,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "GOOGL",
+      "model_a": "lstm",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "GOOGL",
+      "model_a": "tft",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "JPM",
+      "model_a": "xgboost",
+      "model_b": "lstm",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "JPM",
+      "model_a": "xgboost",
+      "model_b": "tft",
+      "dm_pvalue": 0.0001,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "JPM",
+      "model_a": "xgboost",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "JPM",
+      "model_a": "lstm",
+      "model_b": "tft",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "JPM",
+      "model_a": "lstm",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "JPM",
+      "model_a": "tft",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "XOM",
+      "model_a": "xgboost",
+      "model_b": "lstm",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "XOM",
+      "model_a": "xgboost",
+      "model_b": "tft",
+      "dm_pvalue": 0.0188,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "XOM",
+      "model_a": "xgboost",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "XOM",
+      "model_a": "lstm",
+      "model_b": "tft",
+      "dm_pvalue": 0.0005,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "XOM",
+      "model_a": "lstm",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    },
+    {
+      "ticker": "XOM",
+      "model_a": "tft",
+      "model_b": "patchtst",
+      "dm_pvalue": 0.0,
+      "significant": true,
+      "n_common": 356
+    }
+  ],
+  "per_model_summary": [
+    {
+      "model": "xgboost",
+      "n_tickers": 5,
+      "mean_accuracy": 0.4963,
+      "mean_ci_width": 0.0995,
+      "n_significant_vs_random": 0
+    },
+    {
+      "model": "lstm",
+      "n_tickers": 5,
+      "mean_accuracy": 0.5062,
+      "mean_ci_width": 0.1039,
+      "n_significant_vs_random": 2
+    },
+    {
+      "model": "tft",
+      "n_tickers": 5,
+      "mean_accuracy": 0.5095,
+      "mean_ci_width": 0.1017,
+      "n_significant_vs_random": 2
+    },
+    {
+      "model": "patchtst",
+      "n_tickers": 5,
+      "mean_accuracy": 0.5253,
+      "mean_ci_width": 0.1023,
+      "n_significant_vs_random": 2
+    }
+  ],
+  "notes": {
+    "binomial_test": "H0: directional_accuracy = 0.5 (random). p<0.05 means significantly different from random.",
+    "bootstrap_ci": "95% bootstrap CI (1000 resamples) for directional accuracy.",
+    "dm_test": "Diebold-Mariano test on squared log-return prediction errors. p<0.05 means the two models have significantly different forecasting accuracy."
+  }
+}
