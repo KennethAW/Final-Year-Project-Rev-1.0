@@ -46,7 +46,17 @@ lightning_logs/
 # Documents (large binary files, maintained outside git)
 *.pptx
 *.docx
+# ...but DO track the report bundled with the presentation for its "Open Report" link
+!presentation/public/FYP-Report.docx
 
 # Misc
 *.log
 .env
+
+# Node / Vite build artifacts
+node_modules/
+.vite/
+
+# Local editor/tooling state and scratch notes (not part of the project)
+.claude/
+CLAUDE.md
