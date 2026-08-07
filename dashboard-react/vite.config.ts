@@ -5,6 +5,8 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // Pinned so the dashboard and the presentation deck can run side by side.
+  server: { port: 5174 },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
